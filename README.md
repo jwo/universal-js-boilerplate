@@ -31,7 +31,14 @@ This is a scaffolding project that includes boilerplate code for:
     ```
 
 3. Watch the package scaffold out files in your project
-4. Start your server:
+4. Install dependencies and preqs
+
+    ```sh
+    npm run setup
+    npm run prereqs
+    ```
+
+5. Start your server:
 
     ```sh
     npm run s
@@ -41,7 +48,7 @@ This is a scaffolding project that includes boilerplate code for:
     # npm run server
     ```
 
-5. Ready to push your code live, and want to minify your code with uglifyjs?
+6. Ready to push your code live, and want to minify your code with uglifyjs?
 
 ```sh
 npm run build
